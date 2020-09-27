@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "597366997783",
+    "firebase_url": "https://ogrencikayituygulamasi.firebaseio.com",
+    "project_id": "ogrencikayituygulamasi",
+    "storage_bucket": "ogrencikayituygulamasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597366997783:android:dc72d008de4b27714ead52",
+        "android_client_info": {
+          "package_name": "com.ogrencikayitsistemi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597366997783-9c0lksdn5e0020ob5oippr5ht01g29ij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9y5ERGROoYu9hsQIBl0Iu9DkThxe333s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597366997783-9c0lksdn5e0020ob5oippr5ht01g29ij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
