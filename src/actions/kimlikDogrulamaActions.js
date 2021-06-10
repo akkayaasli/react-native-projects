@@ -1,5 +1,5 @@
-//kimlik doğrulama sayfasoındaki action ları yakalıcaz.
-//ilk email nin action nı yakalıcaz.
+//kimlik doğrulama sayfasoındaki action ları alıyoruz
+//ilk email nin action nı alıyoruz.
 import {Alert} from 'react-native';
 
 import {Actions} from 'react-native-router-flux';
@@ -21,12 +21,12 @@ export const emailChanged=(email)=>{
             type: EMAİL_CHANGED,
             //switch case yakalamak için verilen bir ad
             payload:email
-            //4.46 da eslint de bir kural yazdı. Hata yoksa ben yazmıcam.
+           
         });
     };
 };
 
-//ikinci password için action nı yakalıcaz.
+//ikinci password için action nı alıyoruz.
 
 export const passwordChanged=(password)=>{
     return (dispatch)=>{
@@ -35,7 +35,7 @@ export const passwordChanged=(password)=>{
             type: PASSWORD_CHANGED,
             //switch case yakalamak için verilen bir ad
             payload:password
-            //4.46 da eslint de bir kural yazdı. Hata yoksa ben yazmıcam.
+           
         });
     };
 };
@@ -43,7 +43,7 @@ export const passwordChanged=(password)=>{
 export const loginUser=({email,password})=>{
     return(dispatch)=>{
         dispatch({type:LOGIN_USER})
-        //boş olma durumu aşağıda sorgulama yapıcam:
+        //boş olma durumu aşağıda sorgulama yapıyorum:
         if(email==='' || password==='')
         {            
             Alert.alert(
