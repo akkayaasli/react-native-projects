@@ -47,5 +47,5 @@ const RouterComponent = () => {
     );
 
 };
-//export default Router;//böyle olmalı ama video da;
+//export default Router;//böyle olmalı ama başka bir kaynakta;
 export default RouterComponent;//böyle
